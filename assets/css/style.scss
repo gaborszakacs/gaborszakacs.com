@@ -1,0 +1,66 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrapper {
+  max-width: calc(774px - (30px * 2));
+}
+
+body {
+  font-family: "Lato";
+  font-size: 17px;
+  color: #222;
+}
+
+.site-header {
+  border-top: 3px solid #4FEEC5;
+}
+
+a.site-title {
+  font-size: 21px;
+  color: #222;
+}
+
+a.page-link {
+  font-size: 17px;
+  color: #222;
+}
+
+.post-header h1 {
+  font-family: "Vollkorn";
+  margin-bottom: 0px;
+}
+
+.post-content {
+  p {
+    font-size: 21px;
+    line-height: 35px;
+    margin-bottom: 35px;
+  }
+
+  a, a:visited, a:hover {
+    color: #222;
+    text-decoration: none;
+    border-bottom: 2px solid #4FEEC5;
+  }
+
+  a:hover {
+    border-bottom: 2px solid #222;
+  }
+
+  h2 {
+    font-size: 27px;
+    font-weight: 700;
+  }
+}
+
+// Only for blog posts
+.e-content > p:first-child {
+  font-weight: 700;
+}
+
+.post-meta {
+  font-size: 17px;
+  line-height: 29px;
+}
